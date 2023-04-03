@@ -1,30 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Books</title>
-    <link rel="stylesheet" href="./index.css">
-  </head>
-  <body>
-    <div class="d-flex flex-column justify-content-center w-100 h-100">
-
-      <div class="d-flex flex-column justify-content-center align-items-center">
-      </div>
-    </div>
-        <h1>As The Page Turns</h1>
-        <button id="books">Where your journey begins</button>  
-        <hr>
-        <br>
-        <div id="main">
-          <ul id="book-list">
-
-          </ul>
-          <div id="info"></div>
-        </div>
-    <footer class="branding">
-      <small>&copy; 2023 <strong>BookApp</strong></small>
-    </footer>
-	<script src="src/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/pumpkin-cheesecake" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/pumpkin-cheesecake');
+  </style>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <!-- <script type="text/javascript" src="./config/config.js"></script> -->
+  <script type="text/javascript" src="src/index.js" defer></script>
+  <title>Books</title>
+</head>
+<body>
+  <div id="navbar">
+    <h1 id="home">Books For Everyone</h1>
+    <ul>
+      <li><a href="#" id="my-collection">All Books</a>
+        <ul>
+          <li><a href="#">Self-Help</a></li>
+          <li><a href="#" id="Parenting">Parenting</a></li>
+          <li><a href="#" id="Inclusive">Inclusive</a></li>
+          <li><a href="#" id="Body Talk">Body Talk</a></li>
+          <li><a href="#" id="Diversity">Diversity</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="main">   
+</div>
+<div id="card-container" class="main"></div>
+</body>
 </html>
+
+<!-- <script>
+  $(document).ready(function(){
+    function load_json_data(id, parent_id)
+    {
+      let html_code = '';
+      $.getJSON('genre.json', function(data){
+        html_code += '<option value="">Select ' + id +'</option>';
+        $.each(data, function(key, value){
+          if(id == 'genre')
+          {
+          if(value.parent_id == '0')
+          {
+            html_code 
+          }
+        })
+      });
+    }
+  });
+</script> -->
+

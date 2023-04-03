@@ -1,0 +1,183 @@
+{
+    "books" : [
+      {
+        "id" : 1,
+        "genre" : "Self-help",
+        "title" : "The Body Keeeps Score",
+        "author" : "Bessel van der Kolk M.D.",
+        "imgUrl" : "https://m.media-amazon.com/images/P/0143127748.01._SCLZZZZZZZ_SX500_.jpg",
+        "page count": 464
+      },
+      {
+        "id" : 2,
+        "genre" : "Self-help",
+        "title" : "Adult Children of Emotionally Immature Parents: How to Heal From Distant, Rejecting, or Self-Involved Parents",
+        "author" : "Lindsay C. Gibson",
+        "imgUrl" : "https://d1b14unh5d6w7g.cloudfront.net/1626251703.01.S001.LXXXXXXX.jpg?Expires=1680531028&Signature=fu-MoOOEb1xTRN4wj5KUepgFM3enRtAKcSgf-tEoUIQtfikiq50ZuqfWcacH2YyTWUT1sTrKZUUrx9CK8InAWit8KmCuhlB4it-HCpUam9ZR5gOei1FAQVD0krK0CnCIomN59iXSw3iXp87Q1urlNOgAKoQUl5XOzpWo4WY1RHs_&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+        "page count": 216
+      },
+      {
+        "id" : 3,
+        "genre" : "Self-help",
+        "title" : "Waking The Tiger",
+        "author" : "Peter A. Levine",
+        "imgUrl" : "https://m.media-amazon.com/images/P/155643233X.01._SCLZZZZZZZ_SX500_.jpg",
+        "page count": 288
+      },
+      {
+        "id" : 4,
+        "genre" : "Self-help",
+        "title" : "What Happened to You?: Conversations on Trauma, Resilience, and Healing",
+        "author" : "Oprah Winfrey & Bruce D. Perry",
+        "imgUrl" : "https://d374oxlv7wyffd.cloudfront.net/B087D5YQXB/ef0c5b57/cover.jpeg",
+        "page count": 291
+      },
+      {
+        "id" : 5,
+        "genre" : "Self-help",
+        "title" : "It Didn't Start With You",
+        "author" : "Mark Wolynn",
+        "imgUrl" : "https://m.media-amazon.com/images/P/1101980389.01._SCLZZZZZZZ_SX500_.jpg",
+        "page count": 256
+      },
+      {
+        "id" : 6,
+        "genre" : "Parenting",
+        "title" : "Sex Positive Talks to Have With Your Kids",
+        "author" : "Mellisa Pinto Carnagey",
+        "imgUrl" : "https://m.media-amazon.com/images/I/41M4ID70OHL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 103
+      },
+      {
+        "id" : 7,
+        "genre" : "Parenting",
+        "title" : "How to Talk so Kids will Listen & Listen so Kids Will Talk",
+        "author" : "Adele Faber & Elaine Mazlish",
+        "imgUrl" : "https://m.media-amazon.com/images/I/518icAIS7-L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 384
+      },
+      {
+        "id" : 8,
+        "genre" : "Parenting",
+        "title" : "The Considerate Conversation Formula",
+        "author" : "Rachel Rogers",
+        "imgUrl" : "https://learn.rachael-rogers.com/hosted/images/df/e7b08251274bd0ae4d9966ff5548b7/cover-e-book.png",
+        "page count": "ebook"
+      },
+      {
+        "id" : 9,
+        "genre" : "Parenting",
+        "title" : "The Whole-Brain Child",
+        "author" : "Daniel J. Siegel M.D. & Tiny Payne Bryson PH.D.",
+        "imgUrl" : "https://m.media-amazon.com/images/I/41Kxm3RRRKL._SX321_BO1,204,203,200_.jpg",
+        "page count": 192
+      },
+      {
+        "id" : 10,
+        "genre" : "Parenting",
+        "title" : "No-Drama Discipline",
+        "author" : "Daniel J. Siegel M.D. & Tiny Payne Bryson PH.D.",
+        "imgUrl" : "https://m.media-amazon.com/images/I/41vuGUn4EYL._SX322_BO1,204,203,200_.jpg",
+        "page count": 288
+      },
+      {
+        "id" : 11,
+        "genre" : "Inclusive",
+        "title" : "A Day in the Life of Marlon Bundo",
+        "author" : "Marlon Bundo with Jill Twiss",
+        "imgUrl" : "https://m.media-amazon.com/images/I/41gwQuKbaOL._SX478_BO1,204,203,200_.jpg",
+        "page count": 40
+      },
+      {
+        "id" : 12,
+        "genre" : "Inclusive",
+        "title" : "It Feels Good To Be Yourself: A Book About Gender Identity",
+        "author" : "Theresa Thorn",
+        "imgUrl" : "https://m.media-amazon.com/images/I/A1tfymk934L._AC_UY218_.jpg",
+        "page count": 40
+      },
+      {
+        "id" : 13,
+        "genre" : "Inclusive",
+        "title" : "Sofia Valdez, Future Prez",
+        "author" : "Andrea Beaty",
+        "imgUrl" : "https://m.media-amazon.com/images/I/71KrQgfscXL._AC_UY218_.jpg",
+        "page count": 40
+      },
+      {
+        "id" : 14,
+        "genre" : "Inclusive",
+        "title" : "All Are Welcome",
+        "author" : "Alexandra Penfold",
+        "imgUrl" : "https://m.media-amazon.com/images/I/91BdulrP5SL._AC_UY218_.jpg",
+        "page count": 44
+      },
+      {
+        "id" : 15,
+        "genre" : "Inclusive Childrens Literature",
+        "title" : "This Day in June",
+        "author" : "Gayle E. Pitman",
+        "imgUrl" : "https://m.media-amazon.com/images/I/51ZsXi+tA5L._SX258_BO1,204,203,200_.jpg",
+        "page count": 32
+      },
+      {
+        "id" : 16,
+        "genre" : "Body Talk",
+        "title" : "What Makes A Baby",
+        "author" : "Cory Silverberg",
+        "imgUrl" : "https://m.media-amazon.com/images/I/61GyiNDUVQL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 36
+      },
+      {
+        "id" : 17,
+        "genre" : "Body Talk",
+        "title" : "Sex Is A Funny Word",
+        "author" : "Cory Silverberg",
+        "imgUrl" : "https://m.media-amazon.com/images/I/61fnUSjFCxL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 192
+      },
+      {
+        "id" : 18,
+        "genre" : "Body Talk",
+        "title" : "Bodies Are Cool",
+        "author" : "Tyler Feder",
+        "imgUrl" : "https://m.media-amazon.com/images/I/51EsfEOKDyL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 32
+      },
+      {
+        "id" : 19,
+        "genre" : "Body Talk",
+        "title" : "Love Your Body",
+        "author" : "Jessica Sanders",
+        "imgUrl" : "https://m.media-amazon.com/images/I/51EsfEOKDyL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 40
+      },
+      {
+        "id" : 20,
+        "genre" : "Diversity",
+        "title" : "This Is How We Do It",
+        "author" : "Matt Lamothe",
+        "imgUrl" : "https://m.media-amazon.com/images/I/51QXT7TsydL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 52
+      },
+      {
+        "id" : 21,
+        "genre" : "Diversity",
+        "title" : "Everything & Everywhere",
+        "author" : "Marc Martin",
+        "imgUrl" : "https://m.media-amazon.com/images/I/61QDxmwJfCL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 40
+      },
+      {
+        "id" : 22,
+        "genre" : "Diversity",
+        "title" : "Race Cars",
+        "author" : "Jenny Devenny",
+        "imgUrl" : "https://m.media-amazon.com/images/I/41WXEposg1S._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "page count": 40
+      }
+    ]
+}
+
+
+ 
