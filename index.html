@@ -10,15 +10,15 @@
     @import url('https://fonts.cdnfonts.com/css/pumpkin-cheesecake');
   </style>
   <link rel="stylesheet" type="text/css" href="index.css">
-  <!-- <script type="text/javascript" src="./config/config.js"></script> -->
-  <script type="text/javascript" src="src/index.js" defer></script>
+
+  
   <title>Books</title>
 </head>
 <body>
   <div id="navbar">
     <h1 id="home">Books For Everyone</h1>
     <ul>
-      <li><a href="#" id="my-collection">All Books</a>
+      <li><a href="#" id="myCollection">All Books</a>
         <ul>
           <li><a href="#">Self-Help</a></li>
           <li><a href="#" id="Parenting">Parenting</a></li>
@@ -31,27 +31,14 @@
   </div>
   <div class="main">   
 </div>
-<div id="card-container" class="main"></div>
+<div class="container"> 
+  <form class="add-book-form" id="add-book-form">
+  </form>
+  <div id="book-collection"></div>
+  <script type="text/javascript" src="src/index.js"></script>
+<!-- <div id="card-container" class="main"></div> -->
 </body>
 </html>
 
-<!-- <script>
-  $(document).ready(function(){
-    function load_json_data(id, parent_id)
-    {
-      let html_code = '';
-      $.getJSON('genre.json', function(data){
-        html_code += '<option value="">Select ' + id +'</option>';
-        $.each(data, function(key, value){
-          if(id == 'genre')
-          {
-          if(value.parent_id == '0')
-          {
-            html_code 
-          }
-        })
-      });
-    }
-  });
-</script> -->
+
 

@@ -1,82 +1,28 @@
-// document.addEventListener('DOMContentLoaded', () => {
-// fetch('http://localhost:3000/books')  
-// .then(res => res.json())
-// .then(data => data.forEach(renderBookCard))
-// })
+document.addEventListener('DOMContentLoaded', () => {
 
-// const cardContainer = document.querySelector('#card-container');
+  //fetch books
+  fetch('http://localhost:3000/books')
+    .then(response => response.json())
+    // once books are fetched-render a card for each book
+   .then(data => data.forEach(renderBooks))
+});
 
-// function renderBookCard(cardData) {
-//     const title = document.createElement('t')
-//     const author = document.createElement('a')
-//     const imgUrl = document.createElement('img')
-//     const btn = document.createElement('button')
+function renderBooks(books){
+  const bookImg = document.getElementById("book-collection")
+  const eachBook = document.createElement("img")
+  eachBook.src = books
+  bookImg.append(eachBook)
+}
 
-//     title.textContent = cardData.t
-//     author.textContent = cardData.a
-//     btn.textContent = 'Buy'
+// functional drop down list 
 
-
-//     imgUrl.src = cardData.imgUrl
+// function myCollection() {
+//   let sHBooks = [
+//     {
+//       "title" : "The Body Keeps Score"
+//     }
+//   ]
 // }
-
-
-
-// //DOM Render Functions
-// function renderOneBook(books){
-//     // Build Book
-//     let card = document.createElement('li')
-//     card.className = "card"
-// }
-
-
-// fetch("db.json")
-//   .then(response => response.json())
-//   .then(books => {
-//     console.log(books)
-//   })
-
-
-//   //Initial Render
-//   // Get Data and Render Books to the DOM
-// function create(){
-//     booksData.forEach(books => renderOneBook(books))  
-// }
-
-
-// // const selfHelpBooks = books.filter
-
-
-
-
-// // books.filter(book => book.genre === "self help")
-
-
-const book = []
-
-// global variables
-const cardContainer = document.querySelector('#card-container');
-
-// DOMContentLoaded fetch
-function fetchBooks(){
-fetch(`http://localhost:3000/books`)
-  .then(res => res.json())
-  .then(data => {
-    cardContainer.innerHTML = '';
-    renderCard(data);
-  })
-  .catch(error => console.error('Error:', error)); 
-} 
-
-document.addEventListener('DOMContentLoaded', fetchBooks);
-
-
-
-
-
-
-
-
 
 
 
