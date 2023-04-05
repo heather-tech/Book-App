@@ -42,10 +42,10 @@
   }
   
   ul li {
-	float: right;
-	width: 200px;
+	float:left;
+	width: 150px;
 	height: 40px;
-	background-color: lightgray;
+	background-color: whitesmoke;
 	opacity: 0.9;
 	line-height: 40px;
 	text-align: center;
@@ -136,6 +136,12 @@
 	  border: none;
 	  color: mediumslateblue;
 	}
+
+	.cardAuthor:hover {
+		background-color: whitesmoke;
+		border: none;
+		color: palevioletred;
+	  }
   
   /*   
 	.input-text {
@@ -159,7 +165,7 @@
 	border-color: rgb(98, 205, 255);
 	border-radius: 25px;
 	transition: box-shadow 0.3s;
-	padding: 20px;
+	padding: 10px;
 	float: left;
 	margin: 5px 5px 5px 5px;
 	text-align: center;
@@ -183,10 +189,17 @@
 	max-width: 300px;
   }
   .cardTitle {
-	height: 70px;
+	height: 50px;
 	display: flex;
 	align-items: center;
   }
+
+  .cardAuthor{
+	height: 50px;
+	display: flex;
+	align-items: center;
+  } 
+
   .cardDetail {
 	border-style: solid;
 	border-color: rgb(98, 205, 255);
