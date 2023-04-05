@@ -131,11 +131,11 @@
 	  margin: 3px;
 	} */
   
-  /* .submit:hover {
+  .cardTitle:hover {
 	  background-color: whitesmoke;
-	  border: #e04b52 solid 1px;
-	  color: #e04b52;
-	} */
+	  border: none;
+	  color: mediumslateblue;
+	}
   
   /*   
 	.input-text {
