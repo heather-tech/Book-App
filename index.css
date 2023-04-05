@@ -102,7 +102,7 @@
   
   button {
 	position: relative;
-	background-color: #e04b52;
+	background-color: darkblue;
 	border: none;
 	border-radius: 5px;
 	height: 3rem;
@@ -114,8 +114,8 @@
   
   button:hover {
 	background-color: whitesmoke;
-	border: #e04b52 solid 1px;
-	color: #e04b52;
+	border: darkblue solid 1px;
+	color: violet ;
   }
   
   /* .submit {
@@ -154,6 +154,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
   .cardDefault {
+	background-color: whitesmoke;
 	border-style: solid;
 	border-color: rgb(98, 205, 255);
 	border-radius: 25px;

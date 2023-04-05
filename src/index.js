@@ -29,6 +29,7 @@ function renderCard(data) {
     const cardDiv = document.createElement('div');
     const cardTitle = document.createElement('p');
     const cardImg = document.createElement('img');
+    const cardAuthor = document.createElement('aut');
 
     cardTitle.textContent = book.title;
     cardTitle.classList.add('cardTitle');
@@ -36,9 +37,11 @@ function renderCard(data) {
     cardDiv.setAttribute('data-genre', book.genre);
     cardImg.src = book.imgUrl;
     cardImg.classList.add('cardImg');
+    cardAuthor.textContent = book.author;
+    cardAuthor.classList.add('cardAuthor');
 
     cardContainer.appendChild(cardDiv);
-    cardDiv.append(cardTitle, cardImg);
+    cardDiv.append(cardImg, cardTitle, cardAuthor);
   });
 }
 // functional drop down list
