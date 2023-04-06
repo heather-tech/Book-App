@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then((response) => response.json())
     // once books are fetched-render a card for each book
     .then((data) => {
-      //would avoid using innerHTML if possible
+      //avoid using innerHTML if possible
       //cardContainer.innerHTML = '';
       while (cardContainer.hasChildNodes()) {
         cardContainer.firstChild.remove();
@@ -24,8 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch((error) => console.log('Error:', error));
 });
 
+
 function renderCard(data) {
-  data.map((book) => {
+  data.forEach((book) => {
     const cardDiv = document.createElement('div');
     const cardTitle = document.createElement('p');
     const cardImg = document.createElement('img');
@@ -55,6 +56,7 @@ Array.from(genreList).forEach((genre) => {
   });
 });
 
+//for loop-removes repetitive code
 function filterBooks(genre) {
   cards = cardContainer.children;
   for (let i = 0; i < cards.length; i++) {
