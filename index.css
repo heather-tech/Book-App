@@ -131,17 +131,17 @@
 	  margin: 3px;
 	} */
   
-  .cardTitle:hover {
+  /* .cardTitle:hover {
 	  background-color: whitesmoke;
 	  border: none;
-	  color: mediumslateblue;
+	  color: #7b68ee;
 	}
 
 	.cardAuthor:hover {
 		background-color: whitesmoke;
 		border: none;
 		color: palevioletred;
-	  }
+	  } */
   
   /*   
 	.input-text {
@@ -160,7 +160,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
   .cardDefault {
-	background-color: whitesmoke;
+	background-color: #f4f4f4;
 	border-style: solid;
 	border-color: rgb(98, 205, 255);
 	border-radius: 25px;

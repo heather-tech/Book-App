@@ -42,6 +42,9 @@ function renderCard(data) {
 
     cardContainer.appendChild(cardDiv);
     cardDiv.append(cardImg, cardTitle, cardAuthor);
+
+    cardDiv.addEventListener("mouseover", () => cardDiv.setAttribute("style", "background-color: #7b68ee"));
+    cardDiv.addEventListener("mouseout", () => cardDiv.setAttribute("style", "background-color: #FFFFF"));
   });
 }
 // functional drop down list
@@ -51,6 +54,7 @@ Array.from(genreList).forEach((genre) => {
     filterBooks(genre.id);
   });
 });
+
 function filterBooks(genre) {
   cards = cardContainer.children;
   for (let i = 0; i < cards.length; i++) {
