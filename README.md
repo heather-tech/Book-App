@@ -1,8 +1,7 @@
-# Book-App
+# Overview
 
-An app that suggests some highly rated books.
+Books For Everyone utilizes a JSON file I put together. Books For Everyone currently has twenty-two highly rated books with five different genres. This project encompasses HTML, CSS, JavaScript, and a local JSON server. 
 
-2.
 how to install this ;project?
 
 3.
