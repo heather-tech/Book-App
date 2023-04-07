@@ -10,10 +10,17 @@ if you want to run this project are they are any special considerations? how do 
 url of the repo
 
 how to run it 
+## Contributing
+
+No pull requests are allowed on this project.
 
 ## Resources
+
 Gradient Background
 https://codepen.io/P1N2O/pen/pyBNzX
 
 Pumpkin Cheesecake Font
 https://www.dafont.com/pumpkin-cheesecake.font
+
+
+## Preview
