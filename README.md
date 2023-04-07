@@ -1,4 +1,4 @@
-# Overview
+====== Overview
 
 Books For Everyone utilizes a JSON file I put together. Books For Everyone currently has twenty-two highly rated books with five different genres. This project encompasses HTML, CSS, JavaScript, and a local JSON server. 
 
