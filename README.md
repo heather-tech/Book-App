@@ -15,3 +15,6 @@ how to run it
 ## Resources
 Gradient Background
 https://codepen.io/P1N2O/pen/pyBNzX
+
+Pumpkin Cheesecake Font
+https://www.dafont.com/pumpkin-cheesecake.font
