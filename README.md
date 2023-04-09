@@ -9,6 +9,10 @@ To install this app, clone the repository to your device. After, open the same d
 
 ``` json-server --watch db.json```
 
+## Repo URL
+
+https://github.com/heather-tech/Book-App
+
 ## Contributing
 
 No pull requests are allowed on this project.
