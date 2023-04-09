@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function renderCard(data) {
+  // debugger;
   data.forEach((book) => {
     const cardDiv = document.createElement('div');
     const cardTitle = document.createElement('p');

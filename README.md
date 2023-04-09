@@ -2,14 +2,13 @@
 
 Books For Everyone utilizes a JSON file I put together. Books For Everyone currently has twenty-two highly rated books with five different genres. This project encompasses HTML, CSS, JavaScript, and a local JSON server. 
 
-how to install this ;project?
 
-3.
-if you want to run this project are they are any special considerations? how do you run the json server?
+## Installation
 
-url of the repo
+To install this app, clone the repository to your device. After, open the same directory that you cloned the app in and run the following code:
 
-how to run it 
+``` json-server --watch db.json```
+
 ## Contributing
 
 No pull requests are allowed on this project.
