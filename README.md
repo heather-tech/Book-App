@@ -28,3 +28,5 @@ https://www.dafont.com/pumpkin-cheesecake.font
 
 ## Preview
 ![](readme/GIF%201.gif)
+
+![](readme/GIF%202.gif.sb-dc138b62-aAwoWq)
