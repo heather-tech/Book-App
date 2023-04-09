@@ -5,28 +5,25 @@ function renderBooks(books) {
   bookImg.append(eachBook);
 }
 
-//gloabal variables
+
 const cardContainer = document.querySelector('#card-container');
 
 document.addEventListener('DOMContentLoaded', () => {
-  //fetch books
+  
   fetch('http://localhost:3000/books')
     .then((response) => response.json())
-    // once books are fetched-render a card for each book
     .then((data) => {
-      //avoid using innerHTML if possible
-      //cardContainer.innerHTML = '';
+      
       while (cardContainer.hasChildNodes()) {
         cardContainer.firstChild.remove();
       }
       renderCard(data);
     })
-    .catch((error) => console.log('Error:', error));
 });
 
 
 function renderCard(data) {
-  // debugger;
+
   data.forEach((book) => {
     const cardDiv = document.createElement('div');
     const cardTitle = document.createElement('p');
@@ -49,7 +46,7 @@ function renderCard(data) {
     cardDiv.addEventListener("mouseout", () => cardDiv.setAttribute("style", "background-color: #FFFFF"));
   });
 }
-// functional drop down list
+
 let genreList = document.querySelectorAll('li a');
 Array.from(genreList).forEach((genre) => {
   genre.addEventListener('click', function () {
@@ -57,16 +54,14 @@ Array.from(genreList).forEach((genre) => {
   });
 });
 
-//for loop-removes repetitive code
+
 function filterBooks(genre) {
   cards = cardContainer.children;
   for (let i = 0; i < cards.length; i++) {
     if (genre === 'myCollection') {
       cards[i].classList.remove('filtered');
-    } else if (cards[i].getAttribute('data-genre') !== genre) {
+    } else {(cards[i].getAttribute('data-genre') !== genre) 
       cards[i].classList.add('filtered');
-    } else {
-      cards[i].classList.remove('filtered');
-    }
+    } 
   }
 }
